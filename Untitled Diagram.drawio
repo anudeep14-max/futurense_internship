@@ -1,9 +1,120 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="Page-1" id="KI4Y0oX6pv6Ozw2fStX0">
-    <mxGraphModel>
+    <mxGraphModel dx="2062" dy="2952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-2" value="Resume Uploads&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | Skill Census Data Uploads&amp;nbsp;&amp;nbsp;Individuals&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | Government Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-1593.75" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="-320" as="sourcePoint" />
+            <mxPoint x="400" y="-320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-7" value="&lt;b&gt;Cloud Storage&lt;/b&gt;: Store all input files&amp;nbsp; &amp;nbsp;&lt;b&gt;Cloud Functions&lt;/b&gt;: Trigger workflows" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-1593.75" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-8" value="Data Ingestion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-1650" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-10" value="User and Data sources" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-1650" width="136" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UTL-VtF_5XHsdnBEG8fD-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="-1460" as="sourcePoint" />
+            <mxPoint x="250" y="-1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-19" value="Processing Pipelines" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-1650" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-20" value="&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Resume Parsing&lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Document AI&lt;/b&gt;: Extract skills, education and experience&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Vertex AI&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: Train custom NLP models&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Skill Census Processing&lt;br&gt;&lt;/b&gt;&amp;nbsp; &lt;b&gt;&amp;nbsp;Dataflow&lt;/b&gt;: Clean and transform data&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;b&gt;BigQuery&lt;/b&gt;: Store structured census&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-1617.5" width="300" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UTL-VtF_5XHsdnBEG8fD-7" target="UTL-VtF_5XHsdnBEG8fD-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="-1460" as="sourcePoint" />
+            <mxPoint x="400" y="-1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UTL-VtF_5XHsdnBEG8fD-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="-1370" as="sourcePoint" />
+            <mxPoint x="670" y="-1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-28" value="Data Storage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="625" y="-1460" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-29" value="&lt;b&gt;BigQuery&lt;/b&gt;: Centralized storage for resumes,&amp;nbsp; census data, and job listings&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Firestore&lt;/b&gt;: Real-time storage for quick queries&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-1400" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.995;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="541.25" y="-1365.5" as="sourcePoint" />
+            <mxPoint x="485" y="-1365.12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-31" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;Vertex AI:&amp;nbsp;&lt;/b&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Fine-tune BERT or Sentence Transformers for matching&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Compare resumes/census skills with job requirements&lt;/div&gt;&lt;div&gt;&lt;b&gt;Pub/Sub&lt;/b&gt;: Real-time updates to keep matches current&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="235" y="-1420" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-32" value="Skill Matching and AI Models" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-1470" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-35" value="&lt;div&gt;&amp;nbsp;&lt;b&gt;Cloud SQL&lt;/b&gt;: Store job descriptions and&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;training programs&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="-1395" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-37" value="Job Listings and Training Suggestions" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="-1470" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="-1372" as="sourcePoint" />
+            <mxPoint x="150" y="-1372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="-1330" as="sourcePoint" />
+            <mxPoint x="40" y="-1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-42" value="Job Listings and Training Suggestions" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="-1270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-43" value="&lt;div&gt;&lt;b&gt;Cloud SQL&lt;/b&gt;: Store job descriptions and&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;training programs&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-42.5" y="-1220" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-44" value="User Dashboard" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-1270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UTL-VtF_5XHsdnBEG8fD-43" target="UTL-VtF_5XHsdnBEG8fD-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="-1260" as="sourcePoint" />
+            <mxPoint x="220" y="-1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-48" value="&lt;div&gt;&amp;nbsp;&lt;b&gt;Firebase Hosting&lt;/b&gt;: Serve frontend application&amp;nbsp; &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;b&gt;React.js&lt;/b&gt;: User-friendly interface for:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Uploading resumes&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Viewing matched jobs and training programs&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-1230" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-49" value="Analytics and Reporting" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="625" y="-1280" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-51" value="&lt;div&gt;&lt;b&gt;Data Studio&lt;/b&gt;: Create dashboards for:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- Job creation metrics&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Skill gap analysis&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Regional and sector-based trends&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-1240" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UTL-VtF_5XHsdnBEG8fD-48" target="UTL-VtF_5XHsdnBEG8fD-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="-1280" as="sourcePoint" />
+            <mxPoint x="400" y="-1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UTL-VtF_5XHsdnBEG8fD-53" value="Analytics and Reporting" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="625" y="-1280" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
